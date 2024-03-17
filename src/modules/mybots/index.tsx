@@ -4,10 +4,9 @@ import Container from '@mui/material/Container';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import BotBox from "./components/bot-box";
-import { Box } from "@material-ui/core";
 import { SearchNormal1 } from "iconsax-react";
 import useStyles from "./components/style";
-import Pagination from '@mui/material/Pagination';
+import {Box,Pagination} from '@mui/material';
 import useMyBots from "./hooks/my-bots";
 
 

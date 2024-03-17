@@ -1,4 +1,4 @@
-import { Button, Paper, TextField } from "@material-ui/core";
+import { Button, Paper, TextField } from "@mui/material";
 import "./style.css";
 import { MdDelete } from "react-icons/md";
 import { useState } from "react";

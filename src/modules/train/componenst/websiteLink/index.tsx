@@ -1,4 +1,4 @@
-import { Button, TextField } from "@material-ui/core";
+import { Button, TextField } from "@mui/material";
 import "./style.css";
 import { Share } from "next/font/google";
 import { BiShare } from "react-icons/bi";

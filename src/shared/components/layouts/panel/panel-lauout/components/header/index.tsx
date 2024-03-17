@@ -7,7 +7,7 @@ import {
   IconButton,
   Toolbar,
   Typography,
-} from "@material-ui/core";
+} from "@mui/material";
 import { useRouter } from "next/router";
 import { ArrowRight, NotificationCircle } from "iconsax-react";
 import { usePathname } from "next/navigation";

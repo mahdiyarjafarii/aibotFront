@@ -17,13 +17,14 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
   },
   headerDesktop: {
+    backdropFilter: "blur(12px)",
+    backgroundColor: "rgba(255, 255, 255, .8)",
+    border: "1px solid #e4e4e7",
     width: "100%",
-    borderBottom: "0.8px solid black",
     padding: theme.spacing(2, 0, 2),
     transition: "all 250ms",
     position: "fixed",
-    top: 0,   
-    backgroundColor:"white",
+    top: 0,  
     animation: "$headerSlideIn 0.6s ease-in-out",
     "&.white-theme .get-visual": {
       background: theme.palette.common.white,

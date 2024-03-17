@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Logo from "./logo";
 import useStyles from "./styles";
-import { Box, Button, Container, Drawer, Hidden } from "@material-ui/core";
+import { Box, Button, Container, Drawer, Hidden } from "@mui/material";
 import { HambergerMenu } from "iconsax-react";
 import clsx from "clsx";
 import Link from "next/link";

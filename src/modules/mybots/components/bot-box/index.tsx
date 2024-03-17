@@ -1,5 +1,5 @@
 "use client" 
-import { Box, Paper, Typography } from "@material-ui/core";
+import { Box, Paper, Typography } from "@mui/material";
 import Image from "next/image";
 import useStyles from "./style";
 import clsx from "clsx";
